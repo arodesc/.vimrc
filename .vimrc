@@ -61,3 +61,9 @@ highlight clear SignColumn
 nmap <Leader>gn <Plug>(GitGutterNextHunk) 
 " git previous
 nmap <Leader>gp <Plug>(GitGutterPrevHunk)
+
+" Hunk-add and hunk-revert for chunk staging
+" git add (chunk)
+nmap <Leader>ga <Plug>(GitGutterStageHunk)
+" git undo (chunk)
+nmap <Leader>gu <Plug>(GitGutterUndoHunk)
